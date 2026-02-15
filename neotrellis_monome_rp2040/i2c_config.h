@@ -18,8 +18,8 @@
 
 // SET YOUR ADDRESSES 
 // 16x8
-const uint8_t addrRowOne[4] = {0x32,0x30,0x2F,0x2E}; 
-const uint8_t addrRowTwo[4] = {0x33,0x31,0x3E,0x36}; 
+const uint8_t addrRowOne[4] = {0x36,0x32,0x30,0x2F};
+const uint8_t addrRowTwo[4] = {0x33,0x35,0x31,0x2E};
 
 // 8x8
 // const byte addrRowOne[4] = {0x2F,0x2E}; 
@@ -42,10 +42,10 @@ const uint8_t addrRowTwo[4] = {0x33,0x31,0x3E,0x36};
 
 // DEFAULT FOR PICO
 #ifndef I2C_SDA
-#define I2C_SDA 26
+#define I2C_SDA 6
 #endif
 #ifndef I2C_SCL
-#define I2C_SCL 27
+#define I2C_SCL 7
 #endif
 #ifndef MYWIRE
 #define MYWIRE Wire1
